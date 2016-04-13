@@ -3,7 +3,7 @@
 An IntelliJ Plugin (for all IDEs based in IntelliJ IDEA platform) which adds live templates for Angular 2 for TypeScript and HTML.
 
 All templates are placed in 
-**Angular2 Template** group within <kbd>Settings</kbd> > <kbd>Editor</kbd> > 
+**Angular 2 Template** group within <kbd>Settings</kbd> > <kbd>Editor</kbd> > 
 <kbd>[Live Templates]</kbd> and are available under abbreviations
 starting with `ng2` (**ng2** => **A**ngular 2 **T**emplates). 
 
@@ -37,7 +37,7 @@ Installation
 ------------
 
 - Manually:
-  - Download the [latest-release] and install it manually using <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Install plugin from disk...</kbd>
+  - Download the [latest-release] and install it manually using <kbd>File</kbd> > <kbd>Import Settings</kbd> > <kbd>Choose angular2LiveTemplate.jar from disk...</kbd>
   
 Restart IDE.
 
