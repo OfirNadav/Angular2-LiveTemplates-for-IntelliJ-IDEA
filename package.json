@@ -1,0 +1,19 @@
+{
+  "name": "Angular 2 Live Templates",
+  "version": "1.0.0",
+  "publisher": "Ofir Nadav",
+  "displayName": "Angular 2 Live Templates",
+  "description": "An IntelliJ Plugin (for all IDEs based in IntelliJ IDEA platform) which adds live templates for Angular 2 for TypeScript and HTML.",
+  "icon": "images/angular-shield.png",
+  "galleryBanner": {
+    "color": "#0273D4",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OfirNadav/Angular2-LiveTemplates-for-IntelliJ-IDEA"
+  },
+  "author": "johnpapa",
+  "license": "MIT",
+  "homepage": "https://github.com/OfirNadav/Angular2-LiveTemplates-for-IntelliJ-IDEA"
+}

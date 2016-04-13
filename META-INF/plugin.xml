@@ -1,0 +1,34 @@
+<idea-plugin version="2">
+    <id>Angular2LiveTemplates</id>
+    <name>Angular 2 Live Templates</name>
+    <version>1.0</version>
+    <vendor
+            email="ofir.nadav@gmail.com"
+            url="https://github.com/OfirNadav/Angular2-LiveTemplates-for-IntelliJ-IDEA">Ofir Nadav
+    </vendor>
+
+    <description><![CDATA[
+      Angular 2 Live Templates for IntelliJ IDEA.
+      ]]></description>
+
+    <change-notes><![CDATA[
+      ]]>
+    </change-notes>
+
+    <idea-version since-build="134.1007"/>
+    <depends>com.intellij.modules.lang</depends>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+    <actions>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <documentationProvider implementation="ofirnadav.Angular2LiveTemplatesDocumentProvider" order="first"/>
+        <lang.documentationProvider language="HTML" implementationClass="ofirnadav.Angular2LiveTemplatesDocumentProvider"
+                                    order="first"/>
+    </extensions>
+</idea-plugin>
